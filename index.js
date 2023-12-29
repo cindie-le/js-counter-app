@@ -7,6 +7,11 @@ function increment() {
     countEl.innerText = count
 }
 
+function decrement() {
+    count-=1
+    countEl.innerText = count
+}
+
 function save() {
     let countStr = count + " - ";
     saveEl.textContent += countStr

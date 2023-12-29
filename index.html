@@ -1,13 +1,25 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <h1>Tally count:</h1>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Tally Count</h1>
         <h2 id="count-el">0</h2>
-        <button id="increment-btn" onclick="increment()">Increment</button>
-        <button id="save-btn" onclick="save()">Save</button>
+        <div class="buttons">
+            <div style = "margin-bottom: 10px;">
+                <button id="decrement-btn" onclick="decrement()">-</button>
+                <button id="increment-btn" onclick="increment()">+</button>
+            </div>
+            <div>
+                <button id="save-btn" onclick="save()">Save</button>             
+            </div>
+        </div>
         <p id="save-el">Previous entries: </p>
-        <script src="index.js"></script>
-    </body>
+    </div>
+    <script src="index.js"></script>
+</body>
+
 </html>

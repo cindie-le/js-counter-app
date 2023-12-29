@@ -1,18 +1,22 @@
 body {
     background-image: url("pink-sparkles.gif");
     background-size: cover;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
     text-align: center;
 }
 
 h1 {
+    color: rgb(233, 161, 189);  
     margin-top: 10px;
     margin-bottom: 10px;
+    font-weight: 500;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 h2 {
+    color: rgb(233, 161, 189);  
     font-size: 50px;
+    font-weight: 500;
     margin-top: 0;
     margin-bottom: 20px;
 }
@@ -22,18 +26,60 @@ button {
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
-    font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
 }
 
+#save-el {
+    color: rgb(233, 161, 189);  
+
+}
+
 #increment-btn {
-    background: rgb(245, 174, 217);
+    background: rgb(245, 174, 201);  
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#increment-btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 #save-btn {
-    background: white;
-    color: rgb(245, 174, 217);
+    color: white;
+    background: rgb(245, 174, 201);  
 }
+
+#save-btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#decrement-btn {
+    background: rgb(245, 174, 201);  
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#decrement-btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.container {
+    background-color: white;
+    margin: auto;
+    max-width: 500px;
+    padding-top: 70px;
+    padding-bottom:70px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
 
